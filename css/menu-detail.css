@@ -1,0 +1,950 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Top */
+
+header.navbar-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: #9A7B4F;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    z-index: 999999;
+}
+
+header.sticky {
+    position: fixed;
+}
+
+header .social-media {
+    color: #fff;
+    font-size: 21px;
+    float: left;
+    padding: 8px 0 8px 0;
+    height: -10px;
+}
+
+header .social-media a.sosmed {
+    color: #fff;
+}
+
+header .social-media a#m-1, header .social-media a#m-2 {
+    margin-right: 5px;
+}
+
+img.logo-img {
+    width: 45px;
+    margin: 8px 0;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+header nav ul li.dropdown:before {
+    position: absolute;
+    line-height: 50px;
+}
+
+header nav ul li ul {
+    position: absolute;
+    left: 0;
+    background: #f8f9fa;
+    display: none;
+    z-index: 999999;
+}
+
+header nav ul li.active ul {
+    display: block;
+}
+
+header nav ul li ul li {
+    display: block;
+    width: 200px;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 5px 20px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li.dropdown1 a {
+    color: #fff;
+    font-size: 15px;
+    display: unset;
+}
+
+header nav ul li.dropdown1 a.select {
+    color: #000;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li a.select:focus {
+    background: #9A7B4F;
+    color: #fff;
+}
+
+/* Navbar Top */
+/* Navbar Bottom */
+
+header.nav-top-mg {
+    margin-top: 49px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: #f8f9fa;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    z-index: 99999;
+}
+
+header .logo {
+    color: #fff;
+    height: 60px;
+    font-size: 24px;
+    float: left;
+    font-weight: 400;
+}
+
+img.logo-img {
+    width: 45px;
+    margin: 8px 0;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+header nav ul li.dropdown:before {
+    position: absolute;
+    line-height: 50px;
+}
+
+header nav ul li ul {
+    position: absolute;
+    left: 0;
+    background: #f8f9fa;
+    display: none;
+}
+
+header nav ul li.active ul {
+    display: block;
+}
+
+header nav ul li ul li {
+    display: block;
+    width: 200px;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 5px 20px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li a.select:hover {
+    background: #9A7B4F;
+    color: #fff;
+}
+
+header nav ul li a.select:focus {
+    background: #9A7B4F;
+    color: #fff;
+}
+
+.menu-toggle {
+    color: rgba(0,0,0,.55);
+    float: right;
+    line-height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Navbar Bottom */
+/* Menu Detail */
+
+.container-detail {
+    padding: 190px 100px 120px 100px;
+    display: flex;
+}
+
+.detail-left {
+    float: left;
+    width: 50%;
+    height: 450px;
+    border-right: 2px solid rgb(177, 175, 175);
+}
+
+.detail-left img {
+    width: 524px;
+    height: 450px;
+}
+
+.detail-right {
+    float: right;
+    width: 50%;
+    padding: 0 0 0 5%;
+}
+
+.detail-right h1 {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.terjual p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+span.terjual-counter {
+    font-weight: bold;
+    color: #7a5f3a;
+}
+
+.price h3 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.tgl_tambah p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+span.tanggal {
+    font-weight: bold;
+}
+
+.deskripsi textarea {
+    width: 565px;
+    height: 150px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    resize: none;
+    border: none;
+    outline: none;
+    color: #6c757d;
+    border: 1px solid #9A7B4F;
+    padding: 10px;
+    border-radius: .25rem;
+    background: none;
+}
+
+.order-button {
+    margin-top: 25px;
+}
+
+.order-button a {
+    text-decoration: none;
+}
+
+.order {
+    font-weight: bold;
+    color: #000;
+    padding: 14px 24px;
+    background-color: rgb(207, 207, 207);
+    box-shadow: 0px 10px #6c757d;
+}
+
+.order:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+/* Menu Detail */
+/* Menu Detail Responsive */
+
+.container-detail2 {
+    padding: 190px 0px 120px 0px;
+    text-align: center;
+    display: none;
+}
+
+.gambar-product {
+    width: 100%;
+    height: 350px;
+}
+
+.gambar-product img {
+    width: 350px;
+    height: 350px;
+    text-align: left;
+}
+
+.title-detail {
+    width: 100%;
+}
+
+.title-detail h1 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.terjual2 p {
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.price2 h3 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.tgl_tambah2 p {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+span.tanggal2 {
+    font-weight: bold;
+}
+
+.deskripsi2 textarea {
+    width: 565px;
+    height: 150px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    resize: none;
+    border: none;
+    outline: none;
+    color: #6c757d;
+    border: 1px solid #9A7B4F;
+    padding: 10px;
+    border-radius: .25rem;
+    background: none;
+}
+
+.order-button2 {
+    margin-top: 25px;
+}
+
+.order-button2 a {
+    text-decoration: none;
+}
+
+.order2 {
+    font-weight: bold;
+    color: #000;
+    padding: 14px 24px;
+    background-color: rgb(207, 207, 207);
+    box-shadow: 0px 10px #6c757d;
+}
+
+.order2:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+/* Menu Detail Responsive */
+/* Rekomendasi Menu */
+
+.rekomen-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    margin: 0px 20px 50px 20px;
+}
+
+h1.title-rekomen {
+    margin-block-start: 0em;
+    margin-bottom: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rekomen {
+    float: left;
+    width: 220px;
+    height: 270px;
+    border: 2px solid #6c757d;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.resize-image {
+    margin-top: 13px;
+    width: 188px;
+    height: 188px;
+}
+
+.rekomen:hover {
+    box-shadow: 2px 3px rgb(196, 194, 194);
+}
+
+.rekomen a {
+    text-decoration: none;
+}
+
+.title h3 {
+    text-decoration: none;
+    color: black;
+    margin-block-start: 0.8em;
+    margin-block-end: 0em;
+}
+
+.content p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+span.terjual-counter {
+    font-weight: bold;
+    color: #7a5f3a;
+}
+
+.rekomen-btn {
+    width: 20%;
+    border: 1px solid rgb(156, 150, 150);
+    box-shadow: 1px 10px #6c757d;
+    margin-top: 15px;
+    transition: 0.3s all;
+}
+
+.btn-rek {
+    display: inline-block;
+    color: #fff;
+    opacity: 0.8;
+    padding: 14px 24px;
+}
+
+.btn-rek:hover {
+    opacity: 1;
+}
+
+.rekomen-btn:hover {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.btn-rekomen .rekomen-btn {
+    color: #000;
+    font-weight: bold;
+    width: 75%;
+}
+
+/* Rekomendasi Menu */
+/* Tentang */
+
+.tentang {
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container2 {
+    width: 800px;
+    text-align: center;
+}
+
+h1.title-form {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    color: #212529;
+    margin-block-end: 0.4em;
+}
+
+.text-about {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+/* Tentang */
+/* Footer */
+
+footer {
+    background: #9A7B4F;
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-block-end: 0.2em;
+}
+
+.footer-content p {
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+.medsos {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+    padding: 0;
+}
+
+.medsos li {
+    margin: 0 10px;
+}
+
+.medsos a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.medsos a i {
+    font-size: 25px;
+}
+
+.medsos a:hover i {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    background: #7a5f3a;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+a.dev {
+    text-decoration: none;
+    color: #7a5f3a;
+    background-color: #fff;
+    padding: 2px 6px;
+    border-radius: .25rem;
+    font-weight: bold;
+}
+
+/* Footer */
+/* Scroll Up */
+
+.scrollUp {
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background: #f8f9fa url(../img/up-arrow.svg);
+    border-radius: 50%;
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #000;
+}
+
+.scrollUp.active {
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Scroll Up */
+
+@media (max-width: 1430px) {
+    /* Detail */
+
+    .detail-left {
+        height: 400px;
+    }
+
+    .detail-left img {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .detail-right h1 {
+        font-size: 28px;
+    }
+    
+    .deskripsi textarea {
+        width: 470px;
+        height: 150px;
+    }
+
+    /* Detail */
+}
+
+@media (max-width: 1210px) {
+    /* Detail */
+
+    .detail-left {
+        height: 350px;
+    }
+
+    .detail-left img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .detail-right h1 {
+        font-size: 26px;
+        margin-top: 0px;
+    }
+    
+    .deskripsi textarea {
+        width: 430px;
+        height: 120px;
+    }
+
+    /* Detail */
+}
+
+@media (max-width: 1060px) {
+    /* Detail */
+
+    .container-detail {
+        display: none;
+    }
+
+    .container-detail2 {
+        display: block;
+    }
+
+    /* Detail */
+}
+
+@media (max-width: 992px) {
+    /* Navbar Top */
+
+    header.navbar-top {
+        padding: 0 20px;
+    }
+
+    header nav.active {
+        left: 0;
+    }
+
+    header nav ul li.active ul {
+        background: #f8f9fa;
+    }
+
+    header nav ul li.dropdown1 a {
+        padding-right: 0;
+    }
+
+    header nav ul li.dropdown1 a.select {
+        width: 95px;
+        display: block;
+    }
+
+    header nav ul li ul li {
+        width: 100%;
+    }
+
+    /* Navbar Top */
+    /* Navbar Bottom */
+
+    header {
+        padding: 0 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    header nav.nav-bot {
+        position: absolute;
+        width: 100%;
+        margin-top: 11px;
+        background: #f8f9fa;
+        top: 49px;
+        left: -100%;
+    }
+
+    header nav.active {
+        left: 0;
+    }
+
+    header nav.nav-bot ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav.nav-bot ul li {
+        border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+
+    header nav.nav-bot ul li.active ul {
+        position: relative;
+        background: #f8f9fa;
+    }
+
+    nav.nav-bot.active {
+        z-index: 999;
+    }   
+    
+    header nav ul li a {
+        height: 50px;
+        line-height: 50px;
+        padding: 5px 15px;
+        color: #000;
+        z-index: 9999999999;
+        text-decoration: none;
+        display: block;
+    }
+
+    header nav ul li ul li {
+        width: 100%;
+    }
+
+    /* Navbar Bottom */
+    /* Rekomendasi Menu */
+
+    .rekomen {
+        width: 45%;
+        height: 270px;
+    }
+
+    .container-rekomen {
+        padding: 0px 0px 0px 50px;
+    }
+
+    /* Rekomendasi Menu */
+    /* Tentang */
+
+    .container2 {
+        width: 100%;
+    }
+
+    .text-about {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+
+    /* Tentang */
+    /* Footer */
+
+    footer {
+        margin-top: 20px;
+    }
+
+    .footer-content p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Footer */
+    /* Scroll Up */
+
+    .scrollUp {
+        right: 25px;
+        width: 40px;
+        height: 40px;
+        background-size: 17px;
+    }
+
+    /* Scroll Up */
+}
+
+@media (max-width: 790px) {
+    /* Menu Detail Responsive */
+
+    .gambar-product {
+        width: 100%;
+        height: 320px;
+    }
+
+    .gambar-product img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .deskripsi2 textarea {
+        width: 345px;
+    }
+
+    /* Menu Detail Responsive */
+    /* Rekomendasi Menu */
+
+    .container-rekomen {
+        padding: 0px 0px 0px 50px;
+    }
+
+    /* Rekomendasi Menu */
+}
+
+@media (max-width: 570px) {
+    /* Menu Detail Responsive */
+
+    .container-detail2 {
+        padding: 160px 0px 140px 0px;
+        text-align: center;
+    }
+
+    .deskripsi2 textarea {
+        width: 370px;
+    }
+
+    /* Menu Detail Responsive */
+    /* Rekomendasi Menu */
+
+    .resize-image {
+        width: 122px;
+        height: 122px;
+    }
+
+    .rekomen {
+        height: 220px;
+    }
+
+    .container-rekomen {
+        padding: 0px 0px 0px 30px;
+    }
+
+    h1.title-rekomendasi {
+        font-size: 30px;
+    }
+
+    /* Rekomendasi Menu */
+}
+
+@media (max-width: 450px) {
+    /* Menu Detail Responsive */
+
+    .gambar-product {
+        height: 270px;
+    }
+
+    .gambar-product img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .title-detail h1 {
+        margin-top: 0px;
+    }
+
+    .deskripsi2 textarea {
+        width: 320px;
+    }
+
+    /* Menu Detail Responsive */
+    /* Rekomendasi Menu */
+
+    h1.title-rekomen {
+        font-size: 30px;
+    }
+
+    /* Rekomendasi Menu */
+}
+
+@media (max-width: 350px) {
+    /* Menu Detail Responsive */
+
+    .deskripsi2 textarea {
+        width: 240px;
+    }
+
+    /* Menu Detail Responsive */
+    /* Tentang */
+
+    h1.title-form {
+        font-size: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    /* Tentang */
+    /* Rekomendasi Menu */
+
+    h1.title-rekomen {
+        font-size: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .container-rekomen {
+        padding: 0px 0px 0px 15px;
+    }
+
+    /* Rekomendasi Menu */
+}
+
+@media (max-width: 334px) {
+    /* Rekomendasi Menu */
+
+    .rekomen {
+        width: 90%;
+    }
+
+    .resize-image {
+        width: 144px;
+        height: 144px;
+    }
+
+    .container-rekomen {
+        padding: 0px 0px 0px 25px;
+    }
+
+    /* Rekomendasi Menu */
+}

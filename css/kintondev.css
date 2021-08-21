@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Bottom */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #9A7B4F;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    z-index: 99999;
+}
+
+header.nav-top-mg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.sticky {
+    position: fixed;
+}
+
+header .logo a {
+    margin-top: 13px;
+    color: #f8f9fa;
+    height: 48px;
+    font-size: 24px;
+    float: left;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Navbar Bottom */
+/* Team */
+
+.teams {
+    margin-top: 200px;
+}
+
+.team-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    margin: 0px 20px 50px 20px;
+}
+
+.team {
+    float: left;
+    width: 380px;
+    height: 220px;
+    border: 2px solid #6c757d;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    border-radius: .5rem;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo i {
+    font-size: 100px;    
+}
+
+.team:hover {
+    box-shadow: 2px 3px rgb(196, 194, 194);
+}
+
+.team a {
+    text-decoration: none;
+}
+
+.title h3 {
+    text-decoration: none;
+    color: black;
+    margin-block-start: 0.8em;
+    margin-block-end: 0em;
+}
+
+.content p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.rekomen-btn {
+    width: 20%;
+    border: 1px solid rgb(156, 150, 150);
+    box-shadow: 1px 10px #6c757d;
+    margin-top: 15px;
+    transition: 0.3s all;
+}
+
+/* Team */
+/* Scroll Up */
+
+.scrollUp {
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background: #f8f9fa url(../img/up-arrow.svg);
+    border-radius: 50%;
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #000;
+}
+
+.scrollUp.active {
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Scroll Up */
+
+@media (max-width: 1340px) {
+    /* Team */
+
+    .teams {
+        margin-top: 150px;
+    }
+
+    .team {
+        margin-right: 0px;
+    }
+
+    .container-team {
+        box-sizing: border-box;
+        padding-left: 25%;
+        padding-right: 25%;
+        width: 1050px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 1290px) {
+    /* Team */
+
+    .container-team {
+        width: 1020px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 1245px) {
+    /* Team */
+
+    .container-team {
+        width: 1000px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 1200px) {
+    /* Team */
+
+    .container-team {
+        width: 980px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 1100px) {
+    /* Team */
+
+    .container-team {
+        width: 940px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 1060px) {
+    /* Team */
+
+    .container-team {
+        width: 910px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 1000px) {
+    /* Team */
+
+    .container-team {
+        width: 870px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 992px) {
+    /* Scroll Up */
+
+    .scrollUp {
+        right: 25px;
+        width: 40px;
+        height: 40px;
+        background-size: 17px;
+    }
+
+    /* Scroll Up */
+}
+
+@media (max-width: 800px) {
+    /* Team */
+
+    .container-team {
+        padding-left: 210px;
+    }
+
+    .team {
+        height: 200px;
+        width: 300px;
+    }
+
+    .logo i {
+        font-size: 60px;    
+    }
+
+    /* Team */
+}
+
+@media (max-width: 780px) {
+    /* Team */
+
+    .container-team {
+        padding-left: 200px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 750px) {
+    /* Team */
+
+    .container-team {
+        padding-left: 190px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 730px) {
+    /* Team */
+
+    .container-team {
+        padding-left: 180px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 650px) {
+    /* Team */
+
+    .team {
+        height: 150px;
+        width: 200px;
+    }
+
+    .logo i {
+        font-size: 50px;    
+    }
+
+    .title h3 {
+        font-size: 16px;
+    }
+
+    .content p {
+        font-size: 13px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 625px) {
+    /* Team */
+
+    .container-team {
+        padding-left: 180px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 600px) {
+    /* Team */
+
+    .container-team {
+        padding-left: 170px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 575px) {
+    /* Team */
+
+    .container-team {
+        padding-left: 160px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 550px) {
+    /* Team */
+
+    .container-team {
+        padding-left: 140px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 525px) {
+    /* Team */
+
+    .container-team {
+        padding-left: 130px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 500px) {
+    /* Team */
+
+    .container-team {
+        padding-left: 120px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 475px) {
+    /* Team */
+
+    .container-team {
+        padding-left: 100px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 450px) {
+    /* Team */
+
+    .container-team {
+        padding-left: 90px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 426px) {
+    /* Team */
+
+    .teams {
+        margin-top: 125px;
+    }
+
+    .container-team {
+        padding-left: 80px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 400px) {
+    /* Team */
+
+    .teams {
+        margin-top: 125px;
+    }
+
+    .container-team {
+        padding-left: 65px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 376px) {
+    /* Team */
+
+    .teams {
+        margin-top: 125px;
+    }
+
+    .container-team {
+        padding-left: 55px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 350px) {
+    /* Team */
+
+    .teams {
+        margin-top: 125px;
+    }
+
+    .container-team {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}
+
+@media (max-width: 320px) {
+    /* Team */
+
+    .teams {
+        margin-top: 125px;
+    }
+
+    .container-team {
+        padding-left: 28px;
+        padding-right: 0px;
+    }
+
+    /* Team */
+}

@@ -1,0 +1,1180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Top */
+
+header.navbar-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: #9A7B4F;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    z-index: 999999;
+}
+
+header.sticky {
+    position: fixed;
+}
+
+header .social-media {
+    color: #fff;
+    font-size: 21px;
+    float: left;
+    padding: 8px 0 8px 0;
+    height: -10px;
+}
+
+header .social-media a.sosmed {
+    color: #fff;
+}
+
+header .social-media a#m-1, header .social-media a#m-2 {
+    margin-right: 5px;
+}
+
+img.logo-img {
+    width: 45px;
+    margin: 8px 0;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+header nav ul li.dropdown:before {
+    position: absolute;
+    line-height: 50px;
+}
+
+header nav ul li ul {
+    position: absolute;
+    left: 0;
+    background: #f8f9fa;
+    display: none;
+    z-index: 999999;
+}
+
+header nav ul li.active ul {
+    display: block;
+}
+
+header nav ul li ul li {
+    display: block;
+    width: 200px;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 5px 20px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li.dropdown1 a {
+    color: #fff;
+    font-size: 15px;
+    display: unset;
+}
+
+header nav ul li.dropdown1 a.select {
+    color: #000;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li a.select:focus {
+    background: #9A7B4F;
+    color: #fff;
+}
+
+/* Navbar Top */
+/* Navbar Bottom */
+
+header.nav-top-mg {
+    margin-top: 49px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: #f8f9fa;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    z-index: 99999;
+}
+
+header .logo {
+    color: #fff;
+    height: 60px;
+    font-size: 24px;
+    float: left;
+    font-weight: 400;
+}
+
+img.logo-img {
+    width: 45px;
+    margin: 8px 0;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+header nav ul li.dropdown:before {
+    position: absolute;
+    line-height: 50px;
+}
+
+header nav ul li ul {
+    position: absolute;
+    left: 0;
+    background: #f8f9fa;
+    display: none;
+}
+
+header nav ul li.active ul {
+    display: block;
+}
+
+header nav ul li ul li {
+    display: block;
+    width: 200px;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 5px 20px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li a.select:hover {
+    background: #9A7B4F;
+    color: #fff;
+}
+
+header nav ul li a.select:focus {
+    background: #9A7B4F;
+    color: #fff;
+}
+
+.menu-toggle {
+    color: rgba(0,0,0,.55);
+    float: right;
+    line-height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Navbar Bottom */
+/* Banner */
+
+.banner {
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.top-wrapper {
+    padding: 185px 0 185px 0;
+    background-image: url(../img/banner-homepage.jpg);
+    background-size: cover;
+    background-position-y: center;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    color: white;
+    opacity: 0.7;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.top-wrapper p {
+    color: white;
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.btn-wrapper a {
+    text-decoration: none;
+}
+
+.customer-counter {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.menu-btn {
+    background-color: #8BBFA2;
+    margin-right: 15px;
+}
+
+.shop-btn {
+    background-color: #FF8A7A;
+}
+
+.login-btn {
+    background-color: rgb(148, 144, 122);
+    margin-right: 15px;
+}
+
+.register-btn {
+    background-color: #8BBFA2;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    opacity: 0.9;
+    padding: 14px 24px;
+    border-radius: .25rem;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.success {
+    border: 1px solid #198754;
+    background: #19875457;
+    color: #fff;
+    display: inline-block;
+    padding: 8px;
+    border-radius: .25rem;
+    margin-bottom: 10px;
+}
+
+/* Banner */
+/* About */
+
+.hero {
+    padding: 0px 120px 120px 120px;
+    overflow: hidden;
+}
+
+.heroleft {
+    float: left;
+    width: 60%;
+    padding: 60px 0px 60px 0px;
+}
+
+.heroleft h2 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.heroleft p {
+    line-height: 2.5em;
+    padding-right: 25px;
+}
+
+.heroright {
+    float: right;
+}
+
+.heroright img {
+    width: 384px;
+    height: 520px;
+}
+
+/* About */
+/* Menu Desc */
+
+.hero2 {
+    padding: 0px 120px 120px 120px;
+    overflow: hidden;
+}
+
+.heroleft2 img {
+    width: 384px;
+    height: 520px;
+}
+
+.heroleft2 {
+    float: left;
+}
+
+.heroright2 {
+    float: right;
+    width: 60%;
+    padding: 60px 0px 60px 0px;
+}
+
+.heroright2 h2 {
+    font-weight: 600;
+    font-size: 45px;
+    margin-left: 25px;
+}
+
+.heroright2 p {
+    line-height: 2.5em;
+    margin-left: 25px;
+}
+
+.heroright2 {
+    float: right;
+}
+
+/* Menu Desc */
+/* Rating */
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.container-rating {
+    padding: 40px 50px 70px 50px;
+    border: 2px solid #6c757d;
+    box-shadow: 4px 5px rgb(196, 194, 194);
+}
+
+.container-rating:hover {
+    box-shadow: 4px 5px #9a7b4faf;
+}
+
+.btn-rating-puas {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+    margin-right: 7px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.btn-rating-tidakpuas {
+    padding: 15px 40px;
+    background-color: #ca5d5d;
+    cursor: pointer;
+    box-shadow: 0 7px #791a1a;
+    margin-right: 7px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.btn-rating-puas:active, .btn-rating-tidakpuas:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+/* Rating */
+/* Rekomendasi Menu */
+
+.rekomen-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    margin: 0px 20px 50px 20px;
+}
+
+h2.title-rekomen {
+    margin-block-start: 0em;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+}
+
+.rekomen {
+    float: left;
+    width: 220px;
+    height: 380px;
+    border: 2px solid #6c757d;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.resize-image {
+    margin-top: 13px;
+    width: 188px;
+    height: 188px;
+}
+
+.rekomen:hover {
+    box-shadow: 2px 3px rgb(196, 194, 194);
+}
+
+.rekomen a {
+    text-decoration: none;
+}
+
+.title h3 {
+    text-decoration: none;
+    color: black;
+    margin-block-start: 0.8em;
+    margin-block-end: 0em;
+}
+
+.content p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+span.terjual-counter {
+    font-weight: bold;
+    color: #7a5f3a;
+}
+
+.rekomen-btn {
+    width: 20%;
+    border: 1px solid rgb(156, 150, 150);
+    box-shadow: 1px 10px #6c757d;
+    margin-top: 15px;
+    transition: 0.3s all;
+}
+
+.btn-rek {
+    display: inline-block;
+    color: #fff;
+    opacity: 0.8;
+    padding: 14px 24px;
+}
+
+.btn-rek:hover {
+    opacity: 1;
+}
+
+.rekomen-btn:hover {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.btn-rekomen .rekomen-btn {
+    color: #000;
+    font-weight: bold;
+    width: 75%;
+}
+
+/* Rekomendasi Menu */
+/* Footer */
+
+footer {
+    background: #9A7B4F;
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-block-end: 0.2em;
+}
+
+.footer-content p {
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+.medsos {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+    padding: 0;
+}
+
+.medsos li {
+    margin: 0 10px;
+}
+
+.medsos a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.medsos a i {
+    font-size: 25px;
+    transition: color .4s ease;
+}
+
+.medsos a:hover i {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    background: #7a5f3a;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+a.dev {
+    text-decoration: none;
+    color: #7a5f3a;
+    background-color: #fff;
+    padding: 2px 6px;
+    border-radius: .25rem;
+    font-weight: bold;
+}
+
+/* Footer */
+/* Scroll Up */
+
+.scrollUp {
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background: #f8f9fa url(../img/up-arrow.svg);
+    border-radius: 50%;
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #000;
+}
+
+.scrollUp.active {
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Scroll Up */
+
+@media (max-width: 1499px) {
+    /* Rekomendasi Menu */
+
+    .rekomen {
+        height: 335px;
+    }
+
+    .resize-image {
+        width: 144px;
+        height: 144px;
+    }
+
+    .title h3 {
+        font-size: 15px;
+        margin-block-start: 0.8em;
+    }
+
+    .content p {
+        font-size: 15px;
+    }
+
+    .container-rekomen {
+        padding: 0px 0px 0px 50px;
+    }
+
+    .btn-rek {
+        padding: 14px 5px;
+    }
+
+    /* Rekomendasi Menu */
+}
+
+@media (max-width: 1200px) {
+    /* About */
+
+    .hero {
+        padding: 60px 60px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .heroleft {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .heroleft h2 {
+        margin-block-start: 0em;
+    }
+
+    .heroleft p {
+        padding-right: 0px;
+    }
+
+    .heroright {
+        width: 100%;
+    }
+
+    .heroright img {
+        width: 420px;
+    }
+
+    /* About */
+    /* Menu Desc */
+
+    .hero2 {
+        padding: 60px 60px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .heroright2 {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .heroright2 h2 {
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+
+    .heroright2 p {
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .heroleft2 {
+        width: 100%;
+    }
+
+    .heroleft2 img {
+        width: 420px;
+    }
+
+    /* Menu Desc */
+    /* Rekomendasi Menu */
+
+    .rekomen {
+        height: 310px;
+    }
+
+    .resize-image {
+        width: 122px;
+        height: 122px;
+    }
+
+    .title h3 {
+        font-size: 13px;
+    }
+
+    .content p {
+        font-size: 13px;
+    }
+
+    .container-rekomen {
+        padding: 0px 0px 0px 30px;
+    }
+
+    /* Rekomendasi Menu */
+}
+
+@media (max-width: 992px) {
+    /* Navbar Top */
+
+    header.navbar-top {
+        padding: 0 20px;
+    }
+
+    header nav.active {
+        left: 0;
+    }
+
+    header nav ul li.active ul {
+        background: #f8f9fa;
+    }
+
+    header nav ul li.dropdown1 a {
+        padding-right: 0;
+    }
+
+    header nav ul li.dropdown1 a.select {
+        width: 95px;
+        display: block;
+    }
+
+    header nav ul li ul li {
+        width: 100%;
+    }
+
+    /* Navbar Top */
+    /* Navbar Bottom */
+
+    header {
+        padding: 0 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    header nav.nav-bot {
+        position: absolute;
+        width: 100%;
+        margin-top: 11px;
+        background: #f8f9fa;
+        top: 49px;
+        left: -100%;
+    }
+
+    header nav.active {
+        left: 0;
+    }
+
+    header nav.nav-bot ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav.nav-bot ul li {
+        border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+
+    header nav.nav-bot ul li.active ul {
+        position: relative;
+        background: #f8f9fa;
+    }
+
+    nav.nav-bot.active {
+        z-index: 999;
+    }   
+    
+    header nav ul li a {
+        height: 50px;
+        line-height: 50px;
+        padding: 5px 15px;
+        color: #000;
+        z-index: 9999999999;
+        text-decoration: none;
+        display: block;
+    }
+
+    header nav ul li ul li {
+        width: 100%;
+    }
+
+    /* Navbar Bottom */
+    /* Banner */
+
+    .top-wrapper h1 {
+        letter-spacing: 3px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .top-wrapper p {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    /* Banner */
+    /* About */
+
+    .hero {
+        padding-top: 0px;
+    }
+
+    .heroleft h2 {
+        font-size: 35px;
+    }
+
+    .heroright img {
+        width: 380px;
+    }
+
+    /* About */
+    /* Menu Desc */
+
+    .heroright2 h2 {
+        font-size: 35px;
+    }
+
+    .heroleft2 img {
+        width: 380px;
+    }
+
+    /* Menu Desc */
+    /* Rating */
+
+    .container-rating {
+        margin-right: 35px;
+        margin-left: 35px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    /* Rating */
+    /* Rekomendasi Menu */
+
+    .rekomen {
+        width: 45%;
+        height: 340px;
+    }
+
+    h2.title-rekomen {
+        font-size: 35px;
+    }
+
+    .resize-image {
+        width: 144px;
+        height: 144px;
+    }
+
+    .container-rekomen {
+        padding: 0px 0px 0px 50px;
+    }
+
+    /* Rekomendasi Menu */
+    /* Footer */
+
+    footer {
+        margin-top: 80px;
+    }
+
+    .footer-content p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Footer */
+    /* Scroll Up */
+
+    .scrollUp {
+        right: 25px;
+        width: 40px;
+        height: 40px;
+        background-size: 17px;
+    }
+
+    /* Scroll Up */
+}
+
+@media (max-width: 790px) {
+    /* Banner */
+
+    .top-wrapper {
+        padding: 160px 0 160px 0;
+    }
+
+    .top-wrapper h1 {
+        font-size: 35px;
+    }
+
+    .top-wrapper p {
+        line-height: 23px;
+    }
+
+    /* Banner */
+    /* Rekomendasi Menu */
+
+    .container-rekomen {
+        padding: 0px 0px 0px 50px;
+    }
+
+    /* Rekomendasi Menu */
+}
+
+@media (max-width: 570px) {
+    /* Banner */
+
+    .banner {
+        margin-bottom: 100px;
+    }
+
+    .top-wrapper {
+        padding: 135px 0 135px 0;
+    }
+
+    .top-wrapper h1 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .top-wrapper p {
+        line-height: 23px;
+        font-size: 15px;
+    }
+
+    /* Banner */
+    /* About */
+
+    .hero {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .heroleft {
+        padding-bottom: 40px;
+    }
+
+    .heroleft h2 {
+        font-size: 30px;
+    }
+
+    .heroleft p {
+        font-size: 15px;
+    }
+
+    .heroright img {
+        width: 350px;
+        height: 420px;
+    }
+
+    /* About */
+    /* Menu Desc */
+
+    .hero2 {
+        padding-bottom: 100px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .heroright2 {
+        padding-bottom: 0px;
+    }
+
+    .heroright2 h2 {
+        font-size: 30px;
+    }
+
+    .heroright2 p {
+        font-size: 15px;
+    }
+
+    .heroleft2 img {
+        width: 350px;
+        height: 420px;
+    }
+
+    /* Menu Desc */
+    /* Rekomendasi Menu */
+
+    .resize-image {
+        width: 122px;
+        height: 122px;
+    }
+
+    .container-rekomen {
+        padding: 0px 0px 0px 30px;
+    }
+
+    h2.title-rekomendasi {
+        font-size: 30px;
+    }
+
+    /* Rekomendasi Menu */
+}
+
+@media (max-width: 450px) {
+    /* Banner */
+
+    .banner {
+        margin-bottom: 80px;
+    }
+
+    .top-wrapper h1 {
+        font-size: 29px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+    }
+
+    /* Banner */
+    /* Rekomendasi Menu */
+
+    .container-rekomen {
+        padding: 0px 0px 0px 20px;
+    }
+
+    /* Rekomendasi Menu */
+    /* About */
+
+    .hero {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .heroright img {
+        width: 310px;
+    }
+
+    /* About */
+    /* Menu Desc */
+
+    .hero2 {
+        padding-bottom: 80px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .heroleft2 img {
+        width: 310px;
+    }
+
+    /* Menu Desc */
+    /* Rating */
+
+    .rating {
+        margin-bottom: 80px;
+    }
+
+    .container-rating h2 {
+        font-size: 23px;
+    }
+
+    /* Rating */
+    /* Rekomendasi Menu */
+
+    h2.title-rekomen {
+        font-size: 30px;
+    }
+
+    /* Rekomendasi Menu */
+}
+
+@media (max-width: 340px) {
+    /* Banner */
+
+    .banner {
+        margin-bottom: 100px;
+    }
+
+    .top-wrapper {
+        padding: 120px 0 120px 0;
+    }
+
+    .top-wrapper h1 {
+        font-size: 28px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+    }
+
+    /* Banner */
+    /* About */
+
+    .heroright img {
+        width: 250px;
+    }
+
+    /* About */
+    /* Menu Desc */
+
+    .heroleft2 img {
+        width: 250px;
+    }
+
+    /* Menu Desc */
+    /* Rating */
+
+    .rating {
+        margin-bottom: 80px;
+    }
+
+    .container-rating h2 {
+        font-size: 23px;
+    }
+
+    /* Rating */
+    /* Rekomendasi Menu */
+
+    h2.title-rekomen {
+        font-size: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .container-rekomen {
+        padding: 0px 0px 0px 15px;
+    }
+
+    /* Rekomendasi Menu */
+}
+
+@media (max-width: 334px) {
+    /* Rekomendasi Menu */
+
+    .rekomen {
+        width: 90%;
+    }
+
+    .resize-image {
+        width: 144px;
+        height: 144px;
+    }
+
+    .container-rekomen {
+        padding: 0px 0px 0px 25px;
+    }
+
+    /* Rekomendasi Menu */
+}

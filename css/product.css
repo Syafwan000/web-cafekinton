@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Bottom */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: #9A7B4F;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    z-index: 999999;
+}
+
+header.sticky {
+    position: fixed;
+}
+
+header .logo a {
+    margin-top: 13px;
+    color: #f8f9fa;
+    height: 48px;
+    font-size: 24px;
+    float: left;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+img.logo-img {
+    width: 45px;
+    margin: 8px 0;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+header nav ul li.dropdown:before {
+    position: absolute;
+    line-height: 50px;
+}
+
+header nav.nav-bot ul li ul {
+    position: absolute;
+    left: 0;
+    background: #f8f9fa;
+    display: none;
+}
+
+header nav ul li.active ul {
+    display: block;
+}
+
+header nav ul li ul li {
+    display: block;
+    width: 190px;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 5px 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li a#select2 {
+    color: #000;
+    width: 150px;
+}
+
+header nav ul li a.select:hover, header nav ul li a#select2:hover {
+    background: #9A7B4F;
+    color: #fff;
+}
+
+header nav ul li a.select:focus, header nav ul li a#select2:focus {
+    background: #9A7B4F;
+    color: #fff;
+}
+
+.menu-toggle {
+    color: rgba(255, 255, 255, 0.55);
+    float: right;
+    line-height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Navbar Bottom */
+/* Tabel */
+
+.tabel {
+    margin-top: 130px;
+    margin-bottom: 75px;
+}
+
+.table-container {
+    padding: 0 10%;
+    margin: 40px auto 0;
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #212529;
+    margin-block-end: 0em;
+}
+
+p.date {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.success {
+    border: 1px solid #198754;
+    background: #19875457;
+    color: #212529;
+    display: inline-block;
+    padding: 8px;
+    border-radius: .25rem;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #9A7B4F
+}
+
+.table thead tr th {
+    font-size: 14px;
+    font-weight: medium;
+    letter-spacing: 0.35px;
+    color: #fff;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: .5px solid #fff;
+}
+
+.table tbody tr td {
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    padding: 8px;
+    text-align: center;
+    border: .5px solid #9A7B4F;
+}
+
+.table tbody tr td .btn-biru {
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.5;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    display: inline-block;
+    background-color: #0d6efd;
+    font-weight: medium;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+}
+
+.resize-image {
+    width: 188px;
+    height: 188px;
+}
+
+/* Tabel */
+/* Search Box */
+
+.pencarian {
+    margin-bottom: 25px;
+}
+
+.container {
+    text-align: right;
+}
+
+input[type="text"] {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 250px;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    color: #212529;
+    background-clip: padding-box;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-radius: .25rem;
+    border: 1px solid #9A7B4F;
+}
+
+button.button-pencarian {
+    margin-top: 10px;
+    background: #9A7B4F;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Search Box */
+/* Informasi */
+
+h5 {
+    margin-block-start: 1.0em;
+    margin-block-end: 1.1em;
+    text-align: right;
+}
+
+.cari {
+    background-color: #0d6efd;
+    padding: 5px 8px 5px 8px;
+    border-radius: .25rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.admin {
+    background-color: #ffc107;
+    padding: 5px 8px 5px 8px;
+    border-radius: .25rem;
+    color: #212529;
+    font-weight: 500;
+}
+
+.btn-hijau {
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.5;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    display: inline-block;
+    background-color: #198754;
+    font-weight: medium;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.aktif2, .nonaktif2 {
+    margin-left: 10px;
+}
+
+/* Informasi */
+/* Scroll Up */
+
+.scrollUp {
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background: #f8f9fa url(../img/up-arrow.svg);
+    border-radius: 50%;
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #000;
+}
+
+.scrollUp.active {
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Scroll Up */
+
+@media (max-width: 1150px) {
+    .tabel {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Navbar Bottom */
+
+    header {
+        padding: 0 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    header nav.nav-bot {
+        position: absolute;
+        width: 100%;
+        margin-top: 11px;
+        background: #f8f9fa;
+        top: 49px;
+        left: -100%;
+    }
+
+    header nav.active {
+        left: 0;
+    }
+
+    header nav.nav-bot ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav.nav-bot ul li {
+        display: block;
+        border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+
+    header nav.nav-bot ul li a {
+        color: #212529;
+        box-sizing: unset;
+    }
+
+    header nav ul li a#select2 {
+        width: auto;
+    }
+
+    header nav.nav-bot ul li.active ul {
+        position: relative;
+        background: #f8f9fa;
+    }
+
+    nav.nav-bot.active {
+        z-index: 999999;
+    }    
+
+    header nav ul li ul li {
+        width: 100%;
+    }
+
+    /* Navbar Bottom */
+    /* Tabel */
+
+    .tabel {
+        margin-top: 120px;
+    }
+
+    .table thead {
+        display: none;
+    }
+
+    .table, .table tbody, .table tr, .table td {
+        display: block;
+        width: 100%;
+    }
+
+    .table tr {
+        margin-bottom: 50px;
+    }
+
+    .table tbody tr td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    .table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .resize-image {
+        width: 144px;
+        height: 144px;
+    }
+
+    /* Tabel */
+    /* Search Box */
+
+    .container {
+        text-align: center;
+    }
+
+    input[type="text"] {
+        width: 250px;
+    }
+
+    /* Search Box */
+    /* Informasi */
+
+    .cari, .admin, .btn-hijau {
+        text-align: center;
+        display: block;
+    }
+
+    /* Informasi */
+    /* Scroll Up */
+
+    .scrollUp {
+        right: 25px;
+        width: 40px;
+        height: 40px;
+        background-size: 17px;
+    }
+
+    /* Scroll Up */
+}
+
+@media (max-width: 548px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Tabel */
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .resize-image {
+        width: 88px;
+        height: 88px;
+    }
+
+    /* Tabel */
+    /* Search Box */
+
+    input[type="text"] {
+        width: 200px;
+    }
+
+    /* Search Box */
+}

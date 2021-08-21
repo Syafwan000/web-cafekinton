@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+/* Tabel */
+
+.tabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.table-container {
+    padding: 0 10%;
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #212529;
+    margin-block-end: 0em;
+}
+
+p.date {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.success {
+    border: 1px solid #198754;
+    background: #19875457;
+    color: #212529;
+    display: inline-block;
+    padding: 8px;
+    border-radius: .25rem;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #9A7B4F
+}
+
+.table thead tr th {
+    font-size: 14px;
+    font-weight: medium;
+    letter-spacing: 0.35px;
+    color: #fff;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: .5px solid #fff;
+}
+
+.table tbody tr td {
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    padding: 8px;
+    text-align: center;
+    border: .5px solid #9A7B4F;
+}
+
+textarea {
+    width: 453px;
+    height: 192px;
+    resize: none;
+    outline: none;
+    background: #fff;
+    border: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.table tbody tr td .btn-print {
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.5;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    display: inline-block;
+    background-color: #0d6efd;
+    font-weight: medium;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.table tbody tr td .btn-back {
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.5;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    display: inline-block;
+    background-color: #dc3545;
+    font-weight: medium;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 8px;
+    user-select: none;
+}
+
+h5 {
+    font-size: 15px;
+    text-align: center;
+    color: #a0a4a8;
+}
+
+/* Tabel */
+
+@media (max-width: 1390px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Tabel */
+
+    .tabel {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .table thead {
+        display: none;
+    }
+
+    .table, .table tbody, .table tr, .table td {
+        display: block;
+        width: 100%;
+    }
+
+    .table tr {
+        margin-bottom: 20px;
+    }
+
+    .table tbody tr td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    textarea {
+        width: 125px;
+        height: 200px;
+    }
+
+    .table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    h5 {
+        font-size: 13px;
+    }
+
+    /* Tabel */
+}
+
+@media (max-width: 420px) {
+    /* Tabel */
+
+    textarea {
+        width: 120px;
+        height: 200px;
+    }
+
+    /* Tabel */
+}
+
+@media print {
+    #opsi {
+        display: none;
+    }
+}
